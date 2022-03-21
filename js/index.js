@@ -29,7 +29,7 @@ $("#connect").click(async function () {
 
 $("#plus").click(function () {
     let value = $("#count").html()
-    if (value == 10) return
+    if (value == 3) return
     value = Number(value) + 1
     $('#count').html(value);
 })
